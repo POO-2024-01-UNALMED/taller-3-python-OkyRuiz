@@ -19,10 +19,10 @@ class TV:
         cls._numTV = numTV
 
     #METODOS SET Y GET MARCA
-    def getCanal(self):
+    def getManal(self):
         return self._marca
     
-    def setCanal(self, marca):
+    def setManal(self, marca):
         self._marca=marca
 
     #METODOS SET Y GET CANAL
