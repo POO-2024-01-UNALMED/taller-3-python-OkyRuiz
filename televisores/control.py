@@ -1,5 +1,5 @@
 class Control:
-    
+
     def enlazar(self, tv):
         self._tv= tv
         tv.setControl(self)
@@ -23,11 +23,10 @@ class Control:
         self._tv.volumenDown()
 
     def setVolumen(self, volumen):
-            if (self._tv and self._tv.getEstado()):
-                self._tv.setVolumen(volumen)
+        self._tv.setVolumen(volumen)
 
     def setCanal(self, canal):
-            if (self.tv and self._tv.getEstado()):
+            if (self._tv and self._tv.getEstado()):
                 self._tv.setCanal(canal)
 
     #METODO SETTER Y GETTER TV
