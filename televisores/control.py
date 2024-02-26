@@ -1,5 +1,8 @@
 class Control:
-
+    def __init__(self, tv):
+         self._tv= tv
+    
+    
     def enlazar(self, tv):
         self._tv= tv
         tv.setControl(self)
