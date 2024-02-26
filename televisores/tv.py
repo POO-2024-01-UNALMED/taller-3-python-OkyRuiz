@@ -8,7 +8,7 @@ class TV:
         self._precio=500
         self._control= None
 
-        TV.numTV+=1
+        TV._numTV+=1
 
     @classmethod
     def getNum(cls):
