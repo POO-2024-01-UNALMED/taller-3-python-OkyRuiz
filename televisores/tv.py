@@ -77,12 +77,12 @@ class TV:
     ##DISMINUIR Y AUMENTAR CANAL DE A UNO
     def volumenDown(self):
         if (self._estado == True):
-            if (self._volumen>0 and self._canal<=7):
+            if (self._volumen>0 and self._volumen<=7):
                 self._volumen-=1
     
     def volumenUp(self):
         if (self._estado == True):
             if (self._canal>=0 and self._canal<7):
-                self._volumen+=1
+                self._canal+=1
 
     

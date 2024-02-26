@@ -26,8 +26,7 @@ class Control:
         self._tv.setVolumen(volumen)
 
     def setCanal(self, canal):
-            if (self._tv and self._tv.getEstado()):
-                self._tv.setCanal(canal)
+        self._tv.setCanal(canal)
 
     #METODO SETTER Y GETTER TV
     def setTv(self, tv):
