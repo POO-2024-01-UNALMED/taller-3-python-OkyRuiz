@@ -11,11 +11,11 @@ class TV:
         TV._numTV+=1
 
     @classmethod
-    def getNum(cls):
+    def getNumTV(cls):
         return cls._numTV
     
     @classmethod
-    def setNum(cls, numTV):
+    def setNumTV(cls, numTV):
         cls._numTV = numTV
 
     #METODOS SET Y GET MARCA
@@ -30,7 +30,7 @@ class TV:
         return self._canal
     
     def setCanal(self, canal):
-        if (self.estado==True):
+        if (self._estado==True):
             if (canal>=1 and canal<=120):
                 self._canal=canal
 
