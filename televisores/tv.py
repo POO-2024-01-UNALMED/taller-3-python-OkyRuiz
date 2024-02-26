@@ -81,7 +81,7 @@ class TV:
             if (self._volumen>0 and self._canal<=7):
                 self._volumen-=1
     
-    def canalUp(self):
+    def VolumenUp(self):
         if (self._estado == True):
             if (self._canal>=0 and self._canal<7):
                 self._volumen+=1
